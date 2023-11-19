@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.head {
+    padding: 10px 130px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.icons {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone {
+    padding-right: 40px;
+}
+
+.fa-brands {
+    color: gray;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.fa-solid {
+    color: #3face4;
+}
+
+.contact span {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.contact span:hover {
+    color: #3face4;
+}
+
+.fa-brands:hover {
+    color: #3face4;
+}
+
+.contact span span {
+    color: gray;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(248, 248, 248);
+    border-top: 1px solid rgb(230, 230, 230);
+    padding: 30px 130px;
+    box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+header img {
+    width: 138px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+
+.starting {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.starting img {
+    display: block;
+    margin: auto;
+}
+
+li {
+    padding: 0 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+li:hover {
+    color: #3face4;
+}
+
+.home {
+    color: #3face4;
+}
+
+
+.theme {
+    width: 100%;
+}
+
+
+.main-txt {
+    position: absolute;
+    transform: translate(130px, 400px);
+    width: 700px;
+    color: white;
+}
+
+
+.first-text {
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.main-txt .last-text {
+    font-size: 17px;
+    width: 600px;
+    transform: translateY(-30px);
+    line-height: 1.6;
+    color: white;
+}
+
+.button1 {
+    width: 180px;
+    height: 60px;
+    background-color: #3face4;
+    display: flex;
+    transition: 0.4s;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.button1:hover, .button3:hover i {
+    background-color: transparent;
+    color: #3face4;
+}
+.button2:hover, .button3:hover{
+    cursor: pointer;
+    border: 1px solid #3face4;
+}
+.title-part {
+    text-align: center;
+    margin: auto;
+    width: 650px;
+    margin-top: 400px;
+}
+
+.title {
+    font-size: 45px;
+}
+
+.last-text{
+    font-size: 17px;
+    color: #777;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.pop-up1 {
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    padding: 0;
+    top: 150px;
+    display: block;
+}
+
+.dropdown:hover .pop-up1 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.pop-up1 li {
+    padding: 20px 35px;
+    border-bottom: 1px solid #efefef;
+}
+
+.lab {
+    width: 100%;
+}
+
+.lab-img {
+    width: 450px;
+    position: relative;
+
+}
+
+.black {
+    position: absolute;
+    width: 90%;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    z-index: 1;
+    background-color: black;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.lab-img p {
+    font-size: 25px;
+    transition: 0.3s;
+    position: absolute;
+    z-index: 1;
+    top: 38%;
+    left: 18%;
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.lab-img:hover .black {
+    opacity: 0.5;
+    visibility: visible;
+}
+
+.lab-img:hover p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.pics {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: 100px auto;
+
+}
+.pop-up1 li:hover {
+    color: white;
+    background-color: #3face4;
+}
+.doctor {
+    width: 800px;
+}
+
+.right-side h1 {
+    font-size: 40px;
+}
+
+.right-side {
+    width: 400px;
+    padding: 50px 150px 10px;
+}
+
+.section2 {
+    display: flex;
+    width: 80%;
+    background-color: #f9f9ff;
+    margin: 100px auto;
+}
+
+.box {
+    padding: 15px;
+    box-sizing: border-box;
+    width: 160px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    background-color: white;
+    height: 160px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box h2 {
+    font-size: 25px;
+}
+
+.box i {
+    margin: 0;
+    font-size: 25px;
+}
+
+.box .last-text {
+    margin: 0;
+    font-size: 16px;
+}
+
+.box:hover {
+    box-shadow: 0 8px 21px #ddd;
+}
+
+.boxes:nth-of-type(1) {
+    margin-top: 50px;
+}
+
+.section3 {
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 1000px;
+    padding: 130px;
+    box-sizing: border-box;
+}
+
+.feedback {
+    font-size: 45px;
+    text-align: center;
+}
+
+.feedback+.last-text {
+    width: 650px;
+    text-align: center;
+    margin: auto;
+    color: #777;
+}
+
+.client h3 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.client p {
+    font-size: 20px;
+    width: 670px;
+}
+
+.fa-star {
+    font-size: 18px;
+    color: orange;
+}
+
+.gray-star {
+    color: #777;
+}
+
+.client img {
+    width: 700px;
+}
+
+.client {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.client div {
+    margin: 60px 0 0 0px;
+}
+
+.section4 i {
+    font-size: 40px;
+}
+
+.section4 {
+    margin-top: 200px;
+
+}
+
+.box2 {
+    width: 300px;
+    text-align: center;
+
+}
+
+.boxes2 {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: 100px auto;
+
+}
+
+.box2 h2 {
+    transition: 0.4s;
+}
+
+.box2:hover h2 {
+    color: #3face4;
+}
+
+.section5{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.servicing {
+    width: 47%;
+    box-sizing: border-box;
+    padding: 120px;
+}
+
+.hours {
+    font-size: 45px;
+}
+
+.section5 .last-text{
+    margin-bottom: 50px;
+
+}
+
+.booking {
+    height: 850px;
+    width: 40%;
+    background-color: white;
+    position: absolute;
+    top: -25px;
+    left: 850px;
+    box-shadow: 0px 10px 20px 0px rgba(153, 153, 153, 0.1);
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.booking h1{
+    text-align: center;
+}
+.section5 input, textarea{
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #ddd ;
+}
+.section5 input {
+    height: 50px;
+    
+}
+input:nth-of-type(5){
+    padding-left: 50px;
+}
+
+textarea{
+    font-family: "Roboto", sans-serif;
+}
+
+.button2{
+    color: white;
+    font-weight: bold;
+    border-radius: 0;
+    width: 250px;
+    margin: auto;
+}
+
+.section6{
+    margin: 100px 0;
+}
+
+.img{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.blog{
+    width: 450px;
+    cursor: pointer;
+}
+
+.img img{
+    width: 100%;
+    transition: 0.4s;
+    height: 100%;
+}
+
+.blog:hover img{
+    transform: scale(1.05);
+}
+
+.blog:hover h2{
+    color: #3face4;
+}
+
+.blog h2{
+    transition: 0.4s;
+}
+
+.blog p {
+    width: 380px;
+}
+
+.blogs {
+    display: flex;
+    margin: 100px auto 150px;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.blog span{
+    font-size: 18px;
+    margin-right: 20px;
+    color: #777;
+}
+
+.section7{
+    height: 650px;
+    width: 100%;
+    background-color: #222;
+    padding: 150px 0px 150px 150px;
+    box-sizing: border-box;
+}
+
+.button3, .button3 i{
+    color: white;
+}
+
+.button3 i{
+    margin-left: 10px;
+}
+
+.button3{
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 200px;
+}
+
+.boxes3{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.section7 h1, .section7 h2{
+color: white;
+}
+
+.box4{
+    width: 450px;
+}
+
+.flex2{
+    display: flex;
+}
+
+.section7 input{
+    width: 350px;
+    font-size: 18px;
+    border-radius: 50px;
+    padding-left: 30px;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #2d2d2d;
+    margin-right: 30px;
+}
+.highlight {
+    color: #3face4;
+    cursor: pointer;
+}
+
+.last-part {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-icons {
+    padding-top: 23px;
+    margin-right: 80px;
+}
+
+.last-icons i{
+    background-color: #111;
+    transition: 0.3s;
+    width: 40px;
+    font-size:18px;
+    height: 40px;
+    color: #efefef;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.last-icons i:hover{
+    color: #efefef;
+    background-color: #3face4;
+}
+
+.box3 .last-text, .boxes3 h1{
+    cursor: pointer;
+}
