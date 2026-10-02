@@ -142,7 +142,9 @@ li:hover {
 
 .button1:hover, .button3:hover i {
     background-color: transparent;
+    cursor: pointer;
     color: #3face4;
+    border: 1px solid #3face4;
 }
 .button2:hover, .button3:hover{
     cursor: pointer;
